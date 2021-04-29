@@ -7,11 +7,15 @@ import javax.swing.JOptionPane;
 public class year_alive {
 	
 public static void main(String[] args) {
+	 
+	String age =JOptionPane.showInputDialog("how old are you");
 	
-	for(int p = 1; p<14; p++) 
-		
+	 int a = Integer.parseInt(age );
 	
-	{System.out.println(p);
+	for(int p = 1; p< a+1 ; p++) 
+		 
+	
+	{JOptionPane.showMessageDialog(null, p);
 
 	p+=1; }
 	
