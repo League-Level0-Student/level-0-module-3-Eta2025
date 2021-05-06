@@ -14,14 +14,23 @@ void draw() {
 /* Then, use a loop to make a body for the Bee! 
 (see the image on the recipe, it's a diagonal line of circles)
 Use modulo to make the colors alternate between yellow and black
-*/
+
+
+*/ 
+for(int i =1; i < 15; i++) {
+  
+  fill(#EAFF08);
+  if ( i % 2 ==0 ) { fill(#030000); }
+ellipse ( i * 20 , i * 20 , 100,100);
 
 
 
+}
 /*
 Now put his head on using drawBeeFace(x,y)
 */
 
+drawBeeFace( 300, 300) ;
 }
 
 /**************   Use these methods but  DON'T CHANGE THE CODE BELOW  **************/
